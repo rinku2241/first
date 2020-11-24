@@ -2,11 +2,9 @@ def Find_day(m,n):
     first=lint[m-2]
     
     if n%7==0:
-       print(first)
-    elif (m==3 and n==6) :
-       print(lint[0])
+       print(first
     else:
-        print(lint[m+(n%7)-2])
+        print(lint[(m+(n)-2)%7])
 
 lint= [ 'Mon','Tue','Wed','Thu','Fri','Sat','Sun']
 firstday =''
